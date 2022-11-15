@@ -1,159 +1,182 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
-.list{
-   width:500px;
-   height:auto;
-   margin-left: 408px;
-   margin-top: 232px;
-   margin-bottom: 232px;
-
- border-radius: 10px;
- border: 1px solid #C4C4C4;
-
-}
-
-.sari{
-    height: 35px;
-    width: 500px;
-    border-radius: 10px 10px 0 0;
-    background-color:#FFDC40;    
-}
-.to{
-    font-family: 'Roboto Slab', serif;
-font-size: 30px;
-font-weight: 900;
-line-height: 26px;
-letter-spacing: 0em;
-text-align: center;
-padding-top: 7px;
-
-}
-.input{
-    height: 45px;
-    width: 336px;
-   margin-left: 70px;
-   margin-top: 30px;
-    border-radius: 10px;
-    font-size: 20px;
-    padding-left: 10px;
-    border-color: #939697;
-}
-.slm{
-    display: flex;
-    flex-direction: row;
-}
-.x{
-    margin-left:-50px ;
-height: 30px;
-width: 30px;
-left: 770px;
-top: 405px;
-border-radius: 71px;
-background: white;
-}
-.x:hover{
-    background-color:rgb(171, 41, 204);
-}
-.dob{
-    height: 50px;
-width: 150px;
-margin-left: 175px;
-margin-top: 30px;
-border-radius: 71px;
-background-color:rgb(171, 41, 204);
-font-family: 'Roboto Slab', serif;
-font-size: 18px;
-line-height: 16px;
-border:rgb(171, 41, 204) ;
-color: aliceblue;
-}
-.bir{
-    margin-bottom: 20px;
-}
-.dob:hover{
-    background-color: rgb(184, 62, 184);
-}
-.pl{
-    border-radius: 71px;
-    height: 48px;
-    width: 48px;
-    font-size: 20px;
-    margin-left:-155px ;
-    border:rgb(182, 80, 212);
-    background-color: rgb(182, 80, 212);  
-    color:aliceblue ;
-}
-.pl:hover{
-    background-color: rgb(199, 86, 199);
-}
-.ust{
-height: 50px;
-width: 50px;
-border-radius: 60%;
-border: white;
-}
-.ust:hover{
-    opacity:0.5 ;
-}
-.duyme{
-    margin-left:380px;
-    justify-content: space-between;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-}
-.alt{
-
-height: 50px;
-width: 50px;
-border: white;
-border-radius: 60%;
-}
-.alt:hover{
-    opacity: 0.5;
-}
-
-#tasks{
-    
-    border-radius: 10px;
-    width: 330px;
-    position: relative;
-    background-color: #ffffff;
-    padding: 20px 10px;
-    margin-left: 69px;
-    border: 1px solid #939697;
-    margin-top: 1px;
-    margin-bottom: 10px;
-}
-.task{
-    border-radius: 5px;
-    align-items: center;
-    justify-content: space-between;
-   
-    cursor: pointer;
-    background-color: white;
-    height: 30px;
-    
-    padding: 5px 10px;
-    display: flex;
-}
-
-.task span{
-    font-size: 20px;
-    font-weight: 400;
-    color: black;
-}
-
-.task button:hover{
-    background-color: rgb(199, 86, 199);
-}
- .hide {
-    display: none;
- }  
-
-.task button {margin-left:-50px ;
-height: 30px;
-width: 30px;
-left: 770px;
-top: 405px;
-border-radius: 71px;
-background: white;}
+* {
+    margin: 0;
+    padding: 0;
+  }
+    li {
+      list-style: none;
+    }
+    .main {
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100vw;
+      height: 100vh;
+    }
+    .container {
+      width: 403.2px;
+      border: 0.087vw solid #c4c4c4;
+      box-sizing: border-box;
+      border-radius: 9.999px;
+    }
+    .header {
+      background-color: #ffdc40;
+      width: 100%;
+      height: 28.648px;
+      border-top-left-radius: 9.999px;
+      border-top-right-radius: 9.999px;
+      margin-bottom: 10px;
+      margin-top: -0.3px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 31.104px;
+    }
+    .sortImg {
+      display: flex;
+      justify-content: right;
+    }
+    .sortImg img {
+      margin-right: 23.04px;
+      margin-top: 18.432px;
+      width: 34.56px;
+      cursor: pointer;
+    }
+  
+    .reverseImg {
+      display: flex;
+      justify-content: right;
+    }
+    .reverseImg img {
+      margin-right: 23.04px;
+      margin-top: 18.432px;
+      width: 34.56px;
+      display: none;
+      cursor: pointer;
+    }
+    .inputList input {
+      width: 218.88px;
+      border: none;
+      outline: none;
+      margin-right: 62.36px;
+    }
+    input[type="text"] {
+      font-size: 14.976px;
+      font-family: "Times New Roman", Times, serif;
+    }
+    .inputAll {
+      margin-top: 10.368px;
+      width: 345.6px;
+      max-height: 247.997px;
+      border: 0.087vw solid #c4c4c4;
+      box-sizing: border-box;
+      border-radius: 9.216px;
+      margin-left: 29.952px;
+      margin-bottom: 25.344px;
+    }
+    .inputList {
+      display: flex;
+      align-items: center;
+      font-size: 11.52px;
+      padding: 11.52px 11.52px 11.52px 16.52px
+    }
+    .clearButton {
+      margin-top: 4.608px;
+      border-radius: 50%;
+      border: 0.087vw solid #c4c4c4;
+      background: none;
+      width: 19.584px;
+      height: 19.584px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 6.912px;
+    }
+    .deleteButton {
+      margin-top: 4.608px;
+      border-radius: 50%;
+      border: 0.087vw solid #c4c4c4;
+      background: none;
+      width: 19.584px;
+      height: 19.584px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 6.912px;
+      cursor: pointer;
+    }
+    .clearButton img {
+      width: 19px;
+      height: 19px;
+      cursor: pointer;
+    }
+    .deleteButton img {
+      width: 19px;
+      height: 19px;
+      cursor: pointer;
+    }
+    .icon button {
+      background: transparent;
+    }
+    .buttoMainAdd {
+      margin-top: 17.28px;
+    }
+    .buttonAdd {
+      cursor: pointer;
+      width: 207.36px;
+      height: 56.448px;
+      background: #833ae0;
+      border-radius: 70.272px;
+      border: none;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16.128px;
+      color: #ffffff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 34.56px;
+    }
+    .buttonAdd:hover{
+      background: #613ae0;
+    }
+    .buttonContainerAdd {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .buttonPlus {
+      width: 56.448px;
+      height: 56.448px;
+      background: #9953f1;
+      border-radius: 70.272px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .buttonText {
+      margin-right: 60px;
+    }
+    .ulDiv {
+      max-height: 174.24px;
+      margin-left:10px;
+    }
+    .liDiv {
+      cursor: pointer;
+      margin:10px 0;
+    }
+    .listText p {
+      width: 188.928px;
+      margin-right: 92.16px;
+      font-size: 14.976px;
+    }
+    .listText {
+      display: flex;
+      align-items: center;
+      padding-left: 6.912px;
+    }
+    .deleteButton {
+      cursor: pointer;
+    }
+  

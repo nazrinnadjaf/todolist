@@ -1,36 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div class="list">
-<div class="sari"></div>
-<p class="to">To-Do List</p>
-<div class="duyme">
-<button class="alt"> <img src="./Group 73.png"></button>
-<button class="ust"> <img src="./Group 91.png"></button>
-</div>
-<div class=slm>
-<label class="comment">
-    <input class="input" name="comm" type="text" placeholder="Title...">
-    <button class="x">x</button>
-</label>
-</div>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js"defer></script>
+  </head>
 
-
-<div id="tasks"></div>
-
-<div class="bir">
-<button class="dob">Add</button>
-<button class="pl">+</button>
-</div>
-<script src="./script.js"></script>
-
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="header"></div>
+        <h2>To-Do List</h2>
+        <div class="sortImg">
+          <img src="/Group 73.svg" alt="" />
+        </div>
+        <div class="reverseImg">
+          <img src="/Group 91.svg" alt="" />
+        </div>
+        <div class="inputAll">
+          <ul class="ulDiv"></ul>
+          <div class="inputList">
+            <input type="text" class="tam" />
+            <button class="clearButton"><img src="/Group 77.svg" alt="" /></button>
+          </div>
+        </div>
+        <div class="buttonMainAdd">
+          <div class="buttonContainerAdd">
+            <button class="buttonAdd">
+              <div class="buttonPlus">
+                <p>+</p>
+              </div>
+              <div class="buttonText">
+                <p>Добавить</p>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
