@@ -1,16 +1,16 @@
 let sortImg = document.querySelector(".sortImg img");
 let reverseImg = document.querySelector(".reverseImg img");
 sortImg.addEventListener("mouseover", () => {
-  sortImg.src = "pictures/Group 73.svg";
+  sortImg.src = "/Group 73.svg";
 });
 sortImg.addEventListener("mouseout", () => {
-  sortImg.src = "pictures/Group 74.svg";
+  sortImg.src = "/Group 74.svg";
 });
 reverseImg.addEventListener("mouseover", () => {
-  reverseImg.src = "pictures/Group 91.svg";
+  reverseImg.src = "/Group 91.svg";
 });
 reverseImg.addEventListener("mouseout", () => {
-  reverseImg.src = "pictures/Group 90.svg";
+  reverseImg.src = "/Group 90.svg";
 });
 let btnClear = document.querySelector(".clearButton");
 btnClear.addEventListener("mouseover", () => {
